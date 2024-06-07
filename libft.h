@@ -6,7 +6,7 @@
 /*   By: rodralva <rodralva@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/10 12:45:40 by rodralva          #+#    #+#             */
-/*   Updated: 2024/04/24 12:05:17 by rodralva         ###   ########.fr       */
+/*   Updated: 2024/06/07 15:58:43 by rodralva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ void	ft_putstr_fd(char *s, int fd);
 void	ft_putchar_fd(char c, int fd);
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 char	**ft_split(char const *s, char c);
+char	*ft_strtok(char *str, const char *delim);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
